@@ -25,12 +25,12 @@ div.menu{
     text-align: center;
 }
 div.menu ul{
-    display: inline-flex;
+    display: flex;
     list-style: none;
     color: rgb(116, 116, 116);
 }
 div.menu ul li{
-    width: 120px;
+    width: 80px;
     margin: 15px;
     padding: 15px;
 }
@@ -46,7 +46,7 @@ div.menu ul li a{
 #button1{
     /*margin-left: 750px;
     margin-top: 20px;*/
-   
+
     border-radius: 200px;
     width: 150px;
     height: 20px;
