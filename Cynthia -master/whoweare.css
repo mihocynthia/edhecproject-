@@ -12,7 +12,7 @@ div.header{
 }
 #logo{
     position: relative;
-    right: 85px;
+    right: 78px;
 }
 #db{
     position: relative;
@@ -78,6 +78,13 @@ div.content2{
 #link_button{
     position: relative;
     bottom: 120px;
-    left: 470px;
+    left: 475px;
     padding: 10px;
+}
+#footer2{
+  y-index: -100;
+  position: relative;
+  bottom: 300px;
+  left: 475px;
+  padding: 30px;
 }
