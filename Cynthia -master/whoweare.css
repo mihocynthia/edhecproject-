@@ -73,7 +73,7 @@ div.content2{
     justify-content: center;
 }
 #footer{
-    z-index: -1;
+    z-index: center;
 }
 #link_button{
     position: relative;
