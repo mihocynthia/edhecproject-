@@ -1,18 +1,19 @@
 body{
-    background-color: rgb(231, 243, 243);
+    background-color: #FFFFFF;
 }
+/* grey #747474 */
 div.header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: rgb(116, 116, 116);
+    color: #747474;
     font-size: large;
     position: relative;
-    left: 50%;
+    left: 46%;
 }
 #logo{
     position: relative;
-    right: 78px;
+    right: 81px;
 }
 #db{
     position: relative;
@@ -20,23 +21,24 @@ div.header{
     top:10px;
     z-index: 1;
 }
+/* off white #FFFFFF */
 div.menu{
-    background: rgb(231, 243, 243);
+    background: #FFFFFF;
     text-align: center;
 }
 div.menu ul{
     display: flex;
     list-style: none;
-    color: rgb(116, 116, 116);
+    color: #747474;
 }
 div.menu ul li{
     width: 80px;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 div.menu ul li a{
     text-decoration: none;
-    color: rgb(116, 116, 116);
+    color: #747474;
 }
 .content{
     display: flex;
@@ -52,12 +54,13 @@ div.menu ul li a{
     height: 20px;
     z-index: -1;
 }
+/* orange #F47A42 */
 #button2{
     /*margin-left: 1065px;*/
     border-radius: 200px;
     width: 150px;
     height: 20px;
-    background-color: rgb(252, 0, 0);
+    background-color: #F47A42;
 }
 #img1{
     background-size: cover;
@@ -73,6 +76,7 @@ div.content2{
     justify-content: center;
 }
 #footer{
+    display: flex-end;
     z-index: -1;
 }
 #link_button{
