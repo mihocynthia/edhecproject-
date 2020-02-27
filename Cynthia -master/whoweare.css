@@ -106,7 +106,7 @@ div.content2{
 #footer_Links{
     position: relative;
     bottom: 180px;
-    left: 220px;
+    left: 185px;
     padding: 10px;
     color: #FFFFFF;
     width: 50%;
@@ -116,7 +116,7 @@ div.content2{
 #footer_copyright{
   display: flex-end;
   position: relative;
-  bottom: 180px;
+  bottom: 186px;
   left: 465px;
   padding: 10px;
   color: #FFFFFF;
