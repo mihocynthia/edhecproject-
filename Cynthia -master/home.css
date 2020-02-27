@@ -26,28 +26,43 @@ div.header{
     z-index: 1;
 }
 /* off white #FFFFFF */
-div.menu{
-    background: #FFFFFF;
-    text-align: center;
+.container{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
 }
-div.menu ul{
-    display: flex;
-    list-style: none;
-    color: #747474;
+
+#main-header{
+	background-color: #fff;
+	font-family: Helvetica;
+	text-align: center;
 }
-div.menu ul li{
-    width: 80px;
-    margin: 15px;
-    padding: 0px;
-}
-div.menu ul li a{
-    text-decoration: none;
-    color: #747474;
-}
-div.menu hover{
-  background:#dd2e4d;
+
+#navbar{
+	background-color:#E22B4E;
 	color:#fff;
 }
+
+#navbar ul{
+	padding:0;
+	list-style: none; /*removes dots*/
+}
+
+#navbar li{
+	display: inline; /* changes to horizontal */
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none; /* removes underline */
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+	color: #333;
+}
+
 /*top content*/
 .content{
     font-family: Arial;
@@ -82,14 +97,35 @@ div.content2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 #footer{
     display: flex-end;
     z-index: -1px;
 }
-#link_button{
+#footer_Links{
     position: relative;
-    bottom: 120px;
-    left: 475px;
+    bottom: 180px;
+    left: 375px;
+    padding: 10px;
+    color: #FFFFFF;
+    width: 30%;
+  	margin:auto;
+  	overflow:hidden
+}
+#footer_copyright{
+  display: flex-end;
+  position: relative;
+  bottom: 180px;
+  left: 600px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+#link_button{
+    font-family: Arial;
+    display: flex-end;
+    position: relative;
+    bottom: 180px;
+    left: 575px;
     padding: 10px;
 }
