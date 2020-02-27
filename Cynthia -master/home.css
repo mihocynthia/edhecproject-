@@ -79,7 +79,8 @@ div.header{
     height: 30px;
     z-index: -1px;
     font-family: Arial;
-    text-decoration-color: #FFFFFF;
+    font-size: 14px;
+    color: #FFFFFF;
     background-color: #F47A42;
 }
 /* orange #F47A42 */
