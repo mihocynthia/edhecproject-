@@ -1,0 +1,132 @@
+body{
+    background-color: #FFFFFF;
+    font-family: Arial;
+  	font-size: 16px;
+  	line-height: 1.6em;
+  	margin: 0;
+}
+/* grey #747474 */
+div.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #747474;
+    font-size: h1;
+    position: relative;
+    left: 45%;
+}
+#logo{
+    position: relative;
+    right: 30px;
+}
+#db{
+    position: relative;
+    right: 2%;
+    top:10px;
+    z-index: 1;
+}
+/* off white #FFFFFF */
+.container{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color: #fff;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+#navbar{
+	background-color:#E22B4E;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none; /*removes dots*/
+}
+
+#navbar li{
+	display: inline; /* changes to horizontal */
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none; /* removes underline */
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+	color: #333;
+}
+
+/*top content*/
+.content{
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+}
+#button1{
+    /*margin-left: 750px;
+    margin-top: 20px;*/
+
+    border-radius: 200px;
+    width: 150px;
+    height: 30px;
+    z-index: -1px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #F47A42;
+}
+/* orange #F47A42 */
+#img1{
+    background-size: cover;
+}
+.active, .menu ul li: :hover{
+    background: #2bab0d;
+    border-radius: 3px;
+    display: block;
+}
+/*content2*/
+div.content2{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#footer{
+    display: flex-end;
+    z-index: -1px;
+}
+#footer_Links{
+    position: relative;
+    bottom: 180px;
+    left: 185px;
+    padding: 10px;
+    color: #FFFFFF;
+    width: 50%;
+  	margin:auto;
+  	overflow:hidden
+}
+#footer_copyright{
+  display: flex-end;
+  position: relative;
+  bottom: 186px;
+  left: 465px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+#link_button{
+    font-family: Arial;
+    display: flex-end;
+    position: relative;
+    bottom: 180px;
+    left: 433px;
+    padding: 10px;
+}
