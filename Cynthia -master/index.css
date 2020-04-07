@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #FFFFFF;
     font-family: Arial;
@@ -93,14 +96,22 @@ div.header{
     display: block;
 }
 /*content2*/
+#img2{
+    width: 50%;
+    float: left;
+}
 div.content2{
-    font-family: Arial;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
+    width: 50%;
+    clear: right;
+    padding-left: 5px;
+    float: right;
+}
+#divFooter{
+    position: relative;
 }
 #footer{
+    position: relative;
+    padding: 5px;
     display: flex-end;
     z-index: -1px;
 }
