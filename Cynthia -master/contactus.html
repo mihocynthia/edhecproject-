@@ -37,9 +37,61 @@
               we get back to you as soon as possible.
               <br><</p>
           </div>
-              <?php require_once('form.php'); ?>
-                </div>
-        <footer>
+          <!-- div form -->
+          <div>
+            <link rel="stylesheet" href="pure.css">
+            <link rel="stylesheet" href="style.css">
+
+
+           <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+           action="https://script.google.com/macros/s/AKfycbyeVgB318PjqX0u2OlAF1IcU5teeJnPohr2Dok6/exec">
+             <!-- change the form action to your script url -->
+
+             <div class="form-elements">
+               <fieldset class="pure-group">
+                 <label for="First Name">First Name: </label>
+                 <input id="firstname" name="First Name" placeholder="First Name" />
+               </fieldset>
+
+               <fieldset class="pure-group">
+                 <label for="Last Name">Last Name: </label>
+                 <input id="lastname" name="Last Name" placeholder="Last Name" />
+               </fieldset>
+
+               <fieldset class="pure-group">
+                 <label for="email">Email Address:</label>
+                 <input id="email" name="Email" type="email" value=""
+                 required placeholder="your.name@email.com"/>
+                 <span class="email-invalid" style="display:none">
+                   Must be a valid email address</span>
+               </fieldset>
+
+               <fieldset class="pure-group">
+                 <label for="message">Message: </label>
+                 <textarea id="message" name="Message" rows="10"
+                 placeholder="Leave us a message..."></textarea>
+               </fieldset>
+
+
+               <button >
+                 Send</button>
+             </div>
+
+             <!-- Customise the Thankyou Message People See when they submit the form: -->
+             <div class="thankyou_message" style="display:none;">
+               <h2><em>Thanks</em> for contacting us!
+                 We will get back to you soon!</h2>
+             </div>
+
+           </form>
+
+           <!-- Submit the Form to Google Using "AJAX" -->
+           <script data-cfasync="false" type="text/javascript"
+           src="form-submission-handler.js"></script>
+         <!-- END -->
+              </div>
+
+              <footer>
               <div>
                 <img id="footer" height="330px" width="100%" src="images/footer.png">
                 <p><a href="https://www.facebook.com/1-To-1-101442431480836/" target="_blank">
