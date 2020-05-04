@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="contactus.css" media="screen"/>
+    </head>
+    <body>
+        <div class="header">
+            <img id="logo" width="150px" src="images/final_logo.png"/>
+            <h1>1 To 1</h1>
+        </div>
+        <nav id="navbar">
+      		<div class="container">
+      			<ul>
+      				<li><a href="index.html">Home</a></li>
+      				<li><a href="whoweare.html">Who We Are</a></li>
+      				<li><a href="outreachprograms.html">Outreach Programs</a></li>
+      				<li><a href="partners&sponsors.html">Partners & Sponsors</a></li>
+      				<li><a href="blog.html">Blog</a></li>
+      				<li><a href="2021plan.html">2021 Plan</a></li>
+      				<li><a href="contactus.html">Contact Us</a></li>
+      			</ul>
+      		</div>
+      	</nav>
+        <div id="img1">
+            <img width="100%" src="images/image14.png"/>
+        </div>
+        <div class="content">
+            <h1><font size="40" color="#00641B">Contact Us</font></h1>
+            <a href="mailto:the1to1project@gmail.com" target="_blank">
+            <button id="button1">Join Our Newsletter</button></a>
+            <p>
+            <font size="4">Each of us can make a difference! If you have any
+              questions or want to join us, feel free to send us a message and
+              we get back to you as soon as possible.
+              <br></p>
+          </div>
+          <!-- div form -->
+          <div>
+            <link rel="stylesheet" href="pure.css">
+            <link rel="stylesheet" href="style.css">
+
+
+           <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+           action="https://script.google.com/macros/s/AKfycbwAyDkxAdVb1o3TInq5UwP-_Q68m80wtSrZpXMb/exec">
+             <!-- change the form action to your script url -->
+
+             <div class="form-elements">
+               <fieldset class="pure-group">
+                 <label for="First Name">First Name: </label>
+                 <input id="firstname" name="First Name" placeholder="First Name" />
+               </fieldset>
+
+               <fieldset class="pure-group">
+                 <label for="Last Name">Last Name: </label>
+                 <input id="lastname" name="Last Name" placeholder="Last Name" />
+               </fieldset>
+
+               <fieldset class="pure-group">
+                 <label for="email">Email Address:</label>
+                 <input id="email" name="Email" type="email" value=""
+                 required placeholder="your.name@email.com"/>
+                 <span class="email-invalid" style="display:none">
+                   Must be a valid email address</span>
+               </fieldset>
+
+               <fieldset class="pure-group">
+                 <label for="message">Message: </label>
+                 <textarea id="message" name="Message" rows="10"
+                 placeholder="Leave us a message..."></textarea>
+               </fieldset>
+
+
+               <button >
+                 Send</button>
+             </div>
+
+             <!-- Customise the Thankyou Message People See when they submit the form: -->
+             <div class="thankyou_message" style="display:none;">
+               <h2><em>Thanks</em> for contacting us!
+                 We will get back to you soon!</h2>
+             </div>
+
+           </form>
+
+           <!-- Submit the Form to Google Using "AJAX" -->
+           <script data-cfasync="false" type="text/javascript"
+           src="form-submission-handler.js"></script>
+         <!-- END -->
+              </div>
+
+              <footer>
+                  <div class="footer_base"><img id="footer" height="330px" width="100%" src="images/footer.png"></div>
+                  <div class = "footer_content">
+                  <p><center><a href="https://www.facebook.com/1-To-1-101442431480836/" target="_blank">
+                  <img id="link_button" src="images/Fblink_1.png"></a>
+                  <a href="https://www.twitter.com/" target="_blank">
+                  <img id="link_button" src="images/twitter_button.png"></a>
+                  <a href="https://www.instagram.com/" target="_blank">
+                  <img id="link_button" src="images/insta_button.png"></a>
+                  <a href="https://www.linkedin.com/login" target="_blank">
+                  <img id="link_button" src="images/linkin_button.png"></a></center></p>
+                  <p><center><a href="index.html" target="footer" img id="footer_Links">Home</a>
+                  <a href="whoweare.html" target="footer" img id="footer_Links">Who We Are</a>
+                  <a href="outreachprograms.html" target="footer" img id="footer_Links">Outreach Programs</a>
+                  <a href="partners&sponsors.html" target="_blank" img id="footer_Links">Partners & Sponsors</a>
+                  <a href="blog.html" target="_blank" img id="footer_Links">Blog</a>
+                  <a href="2021plan.html" target="_blank" img id="footer_Links">2021 Plan</a>
+                  <a href="contactus.html" target="_blank" img id="footer_Links">Contact Us</a></center></p>
+                </div> 
+              </div>
+                  <div class="copyright"><center>Website © 1-to-1 in 2020</center></div>
+               
+              </footer>
+      </body>
+</html>
